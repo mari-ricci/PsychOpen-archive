@@ -117,17 +117,14 @@ a.header-link:hover, a.header-link:focus {
     width: 100%;
     padding: 0.25em 0.5em;
     background-color: white;
-}
-.card-btn-custom > a {
     color: rgb(68,51,122);
     text-decoration: none;
+    display: block;
+    text-align: center;
 }
-
 .card-btn-custom:hover {
     background-color: #44337a;
     transition-duration: 500ms;
-}
-.card-btn-custom > a:hover {
     color: white;
     text-decoration: none;
 }
@@ -256,6 +253,11 @@ a.header-link:hover, a.header-link:focus {
     margin-left: 15px;
     height: 50px;
 }
+
+.lp_ms_logo {
+    padding: 7px 0;
+    height: fit-content;
+}
 /**************** END HEADER ****************/
 
 /**************** START NAVIGATION ****************/
@@ -265,6 +267,10 @@ a.header-link:hover, a.header-link:focus {
     color: inherit !important;
     border: none;
     margin-bottom: inherit;
+}
+.navbar-wrapper-custom {
+    position: relative;
+    z-index: 2;
 }
 button:focus {
     outline: none !important;
