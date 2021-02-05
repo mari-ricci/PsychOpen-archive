@@ -96,9 +96,14 @@ a.header-link:hover, a.header-link:focus {
 
 .card-custom {
     border-radius: 0;
-    margin: 0 10px!important;
+    margin: 10px 0;
 }
 
+@media (min-width: 750px) {
+    .card-custom {
+        margin: 0 10px!important;
+    }
+}
 .card-body-custom {
     border-radius: 0;
 }
@@ -152,7 +157,7 @@ a.header-link:hover, a.header-link:focus {
 .article-entry {
     margin-left: 1em;
     margin-top: 1.5em;
-    margin-bottom: 0.5em;
+
 }
 .btn-abstract {
 
@@ -183,12 +188,10 @@ a.header-link:hover, a.header-link:focus {
     content: "\f054";
 }
 
-.toc {
-    padding-top: 2em;
-    /*max-width: min-content;*/
-
+#content h2 {
+    margin-top: 2em;
+    margin-bottom: -1em;
 }
-
 #content h3 {
     margin-top: 2em;
 }
@@ -258,6 +261,20 @@ a.header-link:hover, a.header-link:focus {
     padding: 7px 0;
     height: fit-content;
 }
+
+/*show logo in mobile, journal cover in tablet and up*/
+.show-md {
+    display: none;
+}
+@media (min-width: 750px) {
+    .show-md {
+        display: unset;
+    }
+    .hide-md {
+        display: none;
+    }
+}
+
 /**************** END HEADER ****************/
 
 /**************** START NAVIGATION ****************/
@@ -373,6 +390,9 @@ button:focus {
 }
 .navbar-default .navbar-nav > li > a:hover {
     color: #0093be;
+}
+.navbar-collapse {
+    padding: 0 10px;
 }
 /**************** END NAVIGATION ****************/
 
