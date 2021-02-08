@@ -81,19 +81,35 @@ a.header-link:hover, a.header-link:focus {
 }
 
 .search-form {
-    width: 75%;
+    width: 100%;
     border: 2px solid #2b2171;
     padding: 0.5em;
     text-overflow: ellipsis;
 }
-
 .search-submit {
     color: white;
     border: 2px solid #2b2171;
     background-color: #2b2171;
     padding: 0.5em 1em;
+    width: 100%;
+    margin-top: 5px;
 }
-
+.radio-buttons-custom {
+    margin-top: 0.5em;
+    display: grid;
+}
+@media (min-width: 750px) {
+    .search-form {
+        width: 75%;
+    }
+    .search-submit {
+        width: unset;
+        margin-top: unset;
+    }
+    .radio-buttons-custom {
+        display: unset;
+    }
+}
 .card-custom {
     border-radius: 0;
     margin: 10px 0;
@@ -288,6 +304,12 @@ a.header-link:hover, a.header-link:focus {
 .navbar-wrapper-custom {
     position: relative;
     z-index: 2;
+}
+.nav-link {
+    color: rgba(0,0,0,1)!important;
+}
+.nav-link:hover {
+    background-color: #f8f9fa;
 }
 button:focus {
     outline: none !important;

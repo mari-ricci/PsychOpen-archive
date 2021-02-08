@@ -67,14 +67,15 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="journal.html">EJCOP</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PCH</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PSYCT</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Journals
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="ejcop.html">European Journal of Counselling Psychology</a>
+                                <a class="dropdown-item" href="pch.html">Psychology, Community and Health</a>
+                                <a class="dropdown-item" href="psyct.html">Psychological Thought</a>
+                            </div>
                         </li>
                         <li class="dropdown-divider hide-md"></li>
                         <li class="nav-item hide-md">
@@ -117,7 +118,7 @@
                                        value="Suche" formtarget="_blank">
                             </div>
                         </form>
-                        <div style="margin-top: 0.5em">
+                        <div class="radio-buttons-custom">
                             <label for="suchfeld-gesamt" class="e-suchfeld__label">Limit search to:</label>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" id="ejcop"
@@ -142,7 +143,8 @@
                     <div class="row grey2-box">
                         <div class="card-deck">
                             <div class="card card-custom">
-                                <img class="card-img-top card-img-custom" src="img/ejcop.jpg" alt="Card image cap">
+                                <img class="card-img-top card-img-custom show-md" src="img/ejcop.jpg">
+                                <img class="card-img-top card-img-custom hide-md" src="img/ejcop_logo.png">
                                 <div class="card-body card-body-custom">
                                     <h5 class="card-title">European Journal of Counselling Psychology</h5>
                                     <p class="card-text">[TO CHANGE] Some quick example text to build on the card title
@@ -151,11 +153,12 @@
                                 </div>
                                 <div class="card-footer card-footer-custom">
 <!--                                    TODO replace with real link-->
-                                    <a class="card-btn-custom" href="journal.html">Show journal</a>
+                                    <a class="card-btn-custom" href="journal_mockup.html">Show journal</a>
                                 </div>
                             </div>
                             <div class="card card-custom">
-                                <img class="card-img-top card-img-custom" src="img/pch.jpg" alt="Card image cap">
+                                <img class="card-img-top card-img-custom show-md" src="img/pch.jpg">
+                                <img class="card-img-top card-img-custom hide-md" src="img/pch_logo.png">
                                 <div class="card-body card-body-custom">
                                     <h5 class="card-title">Psychology, Community and Health</h5>
                                     <p class="card-text">[TO CHANGE] Some quick example text to build on the card title
@@ -164,12 +167,12 @@
                                 </div>
                                 <div class="card-footer card-footer-custom">
 <!--                                    TODO replace with real link-->
-                                    <a class="card-btn-custom" href="journal.html">Show journal</a>
+                                    <a class="card-btn-custom" href="journal_mockup.html">Show journal</a>
                                 </div>
                             </div>
                             <div class="card card-custom">
-                                <img class="card-img-top card-img-custom" src="img/psyct.jpg"
-                                     alt="Card image cap">
+                                <img class="card-img-top card-img-custom show-md" src="img/psyct.jpg">
+                                <img class="card-img-top card-img-custom hide-md" src="img/Psyct_Logo2.png">
                                 <div class="card-body card-body-custom">
                                     <h5 class="card-title">Psychological Thought</h5>
                                     <p class="card-text">[TO CHANGE] Some quick example text to build on the card title
@@ -178,7 +181,7 @@
                                 </div>
                                 <div class="card-footer card-footer-custom">
 <!--                                    TODO replace with real link-->
-                                    <a class="card-btn-custom" href="journal.html">Show journal</a>
+                                    <a class="card-btn-custom" href="journal_mockup.html">Show journal</a>
                                 </div>
                             </div>
 
