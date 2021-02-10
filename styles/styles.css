@@ -1,4 +1,8 @@
-/**************** START CONTENT ****************/
+/**
+* @stylesheet style.css Stylesheet
+*
+* Main stylesheet
+**/
 body {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
@@ -56,7 +60,7 @@ a.header-link {
 a.header-link:hover, a.header-link:focus {
     color: #00baf1;
 }
-/*overwrite bootstrap style*/
+/*overwrite bootstrap styles*/
 .bg-light {
     background-color: white!important;
 }
@@ -222,9 +226,12 @@ a.header-link:hover, a.header-link:focus {
         text-align: end;
     }
 }
-/**************** END CONTENT ****************/
 
-/**************** START HEADER ****************/
+/**
+* @styles header-section Header
+*
+* here a description
+**/
 #lp_ms_header ul li {
     display: inline;
 }
