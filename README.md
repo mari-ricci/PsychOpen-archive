@@ -1,5 +1,5 @@
 # PsychOpen Archive for EJCOP, PCH, PSYCT journals
-
+This repository contains skeleton pages for a PsychOpen archive website. Review and update texts before publishing!! 
 ## Sitemap
 ```bash
 └── Home (index.html)
